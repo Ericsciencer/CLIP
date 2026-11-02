@@ -7,8 +7,10 @@
 ### 结果 | Result
 
 训练结果：
+<img width="1784" height="581" alt="image" src="https://github.com/user-attachments/assets/6fc5a4de-e6b1-4862-b543-e5184f1a0449" />
 
 图文相似度矩阵可视化（测试集 10 类 × 10 类）：
+<img width="1165" height="1031" alt="image" src="https://github.com/user-attachments/assets/d779adb3-6139-464a-83ab-695a1de17942" />
 
 
 ---
