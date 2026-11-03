@@ -36,7 +36,7 @@ Contrastive Language-Image Pre-training（简称 CLIP）由 **Alec Radford, Jong
 
 <img width="1238" height="738" alt="image" src="https://github.com/user-attachments/assets/79b60250-8e5a-47a6-8076-fcd3ff25c8d4" />
 
-
+了解更多架构可以见文章：[CLIP深入浅出](https://blog.csdn.net/Eric005/article/details/169462351?fromshare=blogdetail&sharetype=blogdetail&sharerId=169462351&sharerefer=PC&sharesource=Eric005&sharefrom=from_link)
 
 **Mini-CLIP 配置**：为降低训练开销、便于快速复现验证，本实现采用轻量化 Mini-CLIP 配置——图像塔为 6 层、256 维、8 头的 ViT（Patch 4×4，32×32 输入共 64 个 Patch）；文本塔为 6 层、128 维、4 头的 Transformer（上下文长度 77）；共享嵌入维度 128。模型结构、双塔对比学习目标、温度参数、零样本评估范式均严格对齐原论文标准。
 
